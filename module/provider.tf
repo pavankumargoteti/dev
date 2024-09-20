@@ -8,3 +8,11 @@ terraform {
   }
 }
 
+terraform {
+  backend "s3" {
+    bucket = "gotetipavankumar"
+    key    = "path/to/terraform.tfstate"
+    region = "ap-south-1"
+  }
+}
+

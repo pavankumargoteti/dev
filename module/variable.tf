@@ -11,3 +11,13 @@ variable "vpc" {
   type = string
   default = " "
 }
+variable "ami" {
+  type = string
+  default = " "
+  
+}
+variable "instance" {
+  type = string
+  default = " "
+  
+}

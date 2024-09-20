@@ -1,3 +1,5 @@
-bucket_name = "pavansdzfghjhghjdepenson9866"
+bucket_name = "pavantgotetiestbkt11-11"
 cidr = "100.0.0.0/16"
 vpc = "myvpc"
+ami = "ami-06f855639265b5541"
+instance = "t2.micro"

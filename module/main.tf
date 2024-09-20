@@ -10,3 +10,9 @@ module "vpc1" {
   vpc1 = var.vpc
 }
 
+module "ami" {
+  source = "./ec2"
+  ami = var.ami
+  instance = var.instance
+  
+}
